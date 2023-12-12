@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Montserrat';
+}
+.home_header{
+    background: url("./Rectangle\ 1\ \(1\).png");
+    width: 100%;
+    height: 60vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.second_block{
+    display: flex;
+}
+.second_block_card{
+    width: 16.66vw;
+    height: 6vw;
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second_block_card h2{
+    color: white;
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+.first_block h2{
+    color: white;
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+.first_block_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    border: 1px solid white;
+    width: 24.99vw;
+}
+.first_block_card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    border: 1px solid white;
+    width: 16.66vw;
+}
+.first_block_card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    border: 1px solid white;
+    width: 24.99vw;
+}
+.first_block_card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    border: 1px solid white;
+    width: 16.66vw;
+}
+.first_block_card4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vw;
+    border: 1px solid white;
+    width: 16.66vw;
+}
+.first_block{
+    display: flex;
+}
+.for_input{
+    width: 20vw;
+    padding: 0px 1vw;
+    background-color: rgba(128, 128, 128, 0.323);
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.for_input input{
+    background-color: transparent;
+    height: 2.5vw;
+    border: none;
+    outline: none;
+    color: white;
+    width: 90%;
+}
+.for_input input::placeholder{
+    color: #fbfbfbb2;
+    font-size: 0.7vw;
+}
+.first_block_card3 h2{
+    margin-left: 10px;
+}
+.first_block_card5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.33vw;
+    height: 3.5vw;
+    border: 1px solid white;
+}
+.first_block_cards5{
+    display: flex;
+}
+.first_block_card6{
+    width: 16.66vw;
+    height: 3.5vw;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.media_navbar{
+    display: none;
+}
+.for_bottom_navbar{
+    width: 90vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+.for_bottom_navbar h3{
+    font-weight: 300;
+    font-size: 1.5vw;
+    color: white;
+}
+.for_bottom_navbar p{
+    font-weight: 700;
+    font-size: 4vw;
+    color: white;
+    margin-top: 1vw;
+    width: 70vw;
+}
+.bottom_navbar_cards{
+    display: flex;
+    margin-top: 3vw;
+}
+.bottom_navbar_card1{
+    width: 17vw;
+    border: 1px solid white;
+    padding: 1vw;
+}
+.bottom_navbar_card2{
+    width: 21vw;
+    border: 1px solid white;
+    padding: 1vw;
+    margin-left: 1vw;
+}
+.bottom_navbar_card3{
+    width: 25vw;
+    border: 1px solid white;
+    padding: 1vw;
+    margin-left: 1vw;
+}
+.bottom_navbar_cards h2{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: 5px ;
+}
+.bottom_navbar_cards img{
+    width: 1.7vw;
+}
+.katalog_butt{
+    display: none;
+}
+.bolee_50{
+    color: #00569C;
+}
+.nashey_kompanii{
+    width: 77vw;
+    margin: auto;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 30px;
+}
+.for_o_komaniy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.for_o_komaniy button{
+    width: 19vw;
+    height: 5.3vw;
+    border: 1px solid #00569C;
+    background-color: white;
+    font-size: 0.8vw;
+    color: #00569C;
+}
+.for_o_komaniy p{
+    width: 28.281vw;
+    font-size: 0.833vw;
+}
+.cent_img_1{
+    width: 69.167vw;
+    display: flex;
+    margin: auto;
+}
+.for_cen_img{
+    margin-top: 50px;
+    position: relative;
+}
+.cent_img_2{
+    position: absolute;
+    top: 4vw;
+    width: 25vw;
+    left: 5vw;
+}
+.cent_img_3{
+    position: absolute;
+    bottom: 4vw;
+    width: 19vw;
+    right: 5vw;
+}
+#for_kompani2{
+    display: none;
+}
+
+
+
+
+
+
+@media(max-width:1440px){
+    .for_o_komaniy p{
+        font-size: 1.3vw;
+        width: 37vw;
+    }
+    .for_o_komaniy button{
+        font-size: 1.3vw;
+    }
+    .for_o_komaniy{
+        width: 65vw;
+    }
+    .second_block_card h2{
+        font-size: 12px;
+    }
+    .for_input input::placeholder{
+        font-size: 1vw;
+    }
+    .first_block h2{
+        font-size: 10px;
+    }
+    .first_block_card{
+        height: 8vw;
+    }
+    .first_block_card1{
+        height: 8vw;
+    }
+    .first_block_card2{
+        height: 8vw;
+    }
+    .first_block_card3{
+        height: 8vw;
+    }
+    .first_block_card5{
+        height: 4vw;
+    }
+    .first_block_card6{
+        height: 4vw;
+    }
+    .for_input{
+        height: 2.5vw;
+    }
+}
+@media(max-width:900px){
+    .first_block{
+        display: none;
+    }
+    .second_block{
+        display: none;
+    }
+    .media_navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 5vw;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .media_navbar i{
+        color: white;
+        font-size: 4vw;
+    }
+    .home_header{
+        height: 70vw;
+    }
+}
+@media(max-width:700px){
+    .for_o_komaniy{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nashey_kompanii{
+        font-size: 28px;
+    }
+    #for_kompani2{
+        display: block;
+    }
+    #for_kompani2 p{
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    #for_kompani2 button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        width: 270px;
+        height: 75px;
+        font-size: 12px;
+    }
+    #for_kompani1{
+        display: none;
+    }
+    .bottom_navbar_cards{
+        display: block;
+    }
+    .bottom_navbar_card2{
+        margin-left: 0;
+        margin-top: 20px !important;
+    }
+    .bottom_navbar_card3{
+        margin-left: 0;
+        margin-top: 20px !important;
+    }
+    .media_navbar i{
+        font-size: 25px;
+    }
+    .home_header{
+        min-height: 550px !important;
+        height: auto !important;
+        padding-bottom: 80px;
+    }
+    .for_bottom_navbar p{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .bottom_navbar_cards h2{
+        font-size: 15px;
+    }
+    .bottom_navbar_cards img{
+        width: 25px;
+    }
+    .bottom_navbar_cards div{
+        padding: 15px;
+        max-width: 360px;
+        width: 100%;
+        margin: auto;
+    }
+    .media_nav_img{
+        width: 200px !important;
+    }
+    .for_bottom_navbar h3{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 60px;
+    }
+}
+@media(max-width:600px){
+    .home_header{
+        height: 80vw;
+    }
+}
+@media(max-width:480px){
+    .katalog_butt{
+        display: flex;
+        max-width: 260px;
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        color: #314F88;
+        border: none;
+        margin: auto;
+        margin-top: 40px !important;
+        margin-bottom: 80px !important;
+    }
+}
