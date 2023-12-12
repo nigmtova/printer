@@ -299,13 +299,32 @@ font-family: 'Montserrat';
     }
 }
 @media(max-width:700px){
+    .for_cen_img{
+        margin-top: 7.5vw;
+    }
+    .cent_img_2{
+        top: -6vw;
+        width: 50vw;
+        left: 1vw;
+    }
+    .cent_img_3{
+        bottom: -6vw;
+        width: 40vw;
+        right: 1vw;
+    }
+    .cent_img_1{
+        width: 85vw;
+    }
+    .nashey_kompanii{
+        width: 90% !important;
+    }
     .for_o_komaniy{
         width: 90%;
         margin: auto;
         margin-top: 20px;
     }
     .nashey_kompanii{
-        font-size: 28px;
+        font-size: 25px;
     }
     #for_kompani2{
         display: block;
@@ -321,8 +340,8 @@ font-family: 'Montserrat';
         align-items: center;
         margin: auto;
         margin-top: 10px;
-        width: 270px;
-        height: 75px;
+        width: 220px;
+        height: 65px;
         font-size: 12px;
     }
     #for_kompani1{
