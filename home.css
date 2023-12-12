@@ -114,7 +114,7 @@
     z-index: 100;
     color: #FFF;
     text-align: center;
-    font-size: 6.615vw;
+    font-size: 8.8vw;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 6.375px;
@@ -200,7 +200,7 @@
 .home_section_cards {
     display: flex;
     justify-content: space-between;
-    width: 48.125rem;
+    width: 40vw;
     height: 24.1875rem;
     border: 0.75px solid var(--Black, #1A1A1A);
     background: #FFF;
@@ -211,7 +211,7 @@
 .home_section_cards2 {
     display: flex;
     justify-content: space-between;
-    width: 48.125rem;
+    width: 40vw;
     height: 24.1875rem;
     border: 0.75px solid var(--Black, #1A1A1A);
     background: #FFF;
@@ -239,8 +239,9 @@
 }
 
 .home_section_text {
+    width: 40vw;
     padding: 1rem;
-    margin: 4rem;
+    margin: 1rem;
 }
 
 .home_section_text h1 {
@@ -391,6 +392,11 @@
     font-weight: 400;
     line-height: normal;
     padding-left: 1rem;
+}
+
+.home_sect_left_inps {
+    max-width: none;
+    padding-top: 1rem;
 }
 
 .home_sect_left_inps button {
